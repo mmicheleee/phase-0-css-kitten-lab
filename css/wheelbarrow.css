@@ -2,8 +2,9 @@ html {
   background: url(../images/beautiful-day.jpg) no-repeat top center;
 }
 
-img {
-  position: relative;
+.kitty-1 {
+  position: absolute;
+  background: url(../images/kitty-1.png) no-repeat;
   z-index: 11;
   cursor: pointer;
 }
@@ -22,7 +23,7 @@ img {
 }
 
 #wheelbarrow { 
-  position: relative;
+  position: absolute;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
   top: 220px;
@@ -35,6 +36,17 @@ img {
   top: 220px;
 }
 
-#basket, #ball {
-  display: inline;
+.basket img {
+  position: absolute;
+  background: url(../images/kitty-3.png) no-repeat;
+}
+
+#ball {
+  position: absolute;
+  background: url(../images/kitty-4.png) no-repeat;
+}
+
+.kitty-5 {
+  position: absolute;
+  background: url(../images/kitty-5.png) no-repeat;
 }
